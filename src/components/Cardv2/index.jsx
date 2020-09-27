@@ -1,8 +1,19 @@
 import React from "react"
+import { CardV2Container } from "./styled"
 
-function Cardv2({ titleCard, textCard, colorButton }) {
+function Cardv2({
+  titleCard,
+  textCard,
+  colorButton,
+  backgroundCard,
+  styleDefault,
+}) {
   return (
-    <div className="card">
+    <CardV2Container
+      className="card"
+      background={backgroundCard}
+      primary={styleDefault}
+    >
       <div className="card-body">
         <h5 className="card-title"> {titleCard} </h5>
         <p className="card-text"> {textCard} </p>
@@ -10,7 +21,7 @@ function Cardv2({ titleCard, textCard, colorButton }) {
           Go somewhere
         </a>
       </div>
-    </div>
+    </CardV2Container>
   )
 }
 

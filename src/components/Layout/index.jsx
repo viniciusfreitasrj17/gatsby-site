@@ -10,11 +10,15 @@ import PropTypes from "prop-types"
 
 import "./layout.css"
 import "./style.scss"
+import Global from "../../styles/global"
+
 import Navigator from "../Navigator"
+import Footer from "../Footer"
 
 const Layout = ({ children }) => {
   return (
     <>
+      <Global />
       <Navigator />
       <div
         style={{
@@ -25,6 +29,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
       </div>
+      <Footer />
     </>
   )
 }
