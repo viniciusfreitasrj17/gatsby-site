@@ -1,5 +1,6 @@
 import React from "react"
 import { CardV2Container } from "./styled"
+import Images from "../Images"
 
 function Cardv2({
   titleCard,
@@ -7,6 +8,7 @@ function Cardv2({
   colorButton,
   backgroundCard,
   styleDefault,
+  nameImage,
 }) {
   return (
     <CardV2Container
@@ -14,12 +16,11 @@ function Cardv2({
       background={backgroundCard}
       primary={styleDefault}
     >
+      <Images name={nameImage} />
       <div className="card-body">
         <h5 className="card-title"> {titleCard} </h5>
         <p className="card-text"> {textCard} </p>
-        <a href="#" className={`btn btn-${colorButton}`}>
-          Go somewhere
-        </a>
+        <button className={`btn btn-${colorButton}`}>Go somewhere</button>
       </div>
     </CardV2Container>
   )

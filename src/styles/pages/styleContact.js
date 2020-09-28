@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-import { Email, LocationOn, Phone } from "../../components/Icons"
+import { Email } from "../../components/Icons"
 
 const EmailContainer = styled(Email)`
   color: ${({ color }) => color || "#606060"};

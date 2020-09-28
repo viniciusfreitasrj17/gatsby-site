@@ -33,13 +33,13 @@ const Footer = () => {
         <div className="row text-white py-4 mt-5">
           <div className="col-6">{description}</div>
           <div className="col-6 d-flex justify-content-center align-items-center">
-            <a href={facebook} target="_blank">
+            <a href={facebook} target="_blank" rel="noreferrer">
               <FacebookIcon />
             </a>
-            <a href={github} target="_blank">
+            <a href={github} target="_blank" rel="noreferrer">
               <GithubIcon />
             </a>
-            <a href={linkedin} target="_blank">
+            <a href={linkedin} target="_blank" rel="noreferrer">
               <LinkedinIcon />
             </a>
           </div>

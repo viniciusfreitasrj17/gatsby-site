@@ -3,6 +3,10 @@ $theme-colors: map-merge(
   (
     "success": green,
     "purple": purple,
+    "gatsby-dark": #542c85,
+    "gatsby": #9963ba,
+    "gatsby-light": #c9abdb,
+    "gray": #c8c8c8,
   ),
   $theme-colors
 );
