@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { EmailContainer } from "../styles/pages/styleContact"
+import SEO from "../components/seo"
 
 const Contact = () => {
   return (
     <Layout>
+      <SEO title="Contact" />
       <div className="container">
         <div className="row">
           <div className="col-12 py-4">

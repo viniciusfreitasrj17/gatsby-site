@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import SEO from "../components/seo"
 
 const Gallery = () => {
   const { gallery } = useStaticQuery(graphql`
@@ -26,6 +27,7 @@ const Gallery = () => {
 
   return (
     <Layout>
+      <SEO title="Gallery" />
       <div className="container py-5">
         <div className="row">
           <div className="col-12">
