@@ -20,10 +20,12 @@ const Contact = () => {
             <p>{text}</p>
           </div>
           <div className="col-md-6">
-            <form>
+            <form name="contact" method="post" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
               <div className="form-group">
                 <input
                   type="text"
+                  name="name"
                   className="form-control"
                   id="exampleInputName"
                   placeholder="Name"
@@ -32,14 +34,16 @@ const Contact = () => {
               <div className="form-group">
                 <input
                   type="email"
+                  name="email"
                   className="form-control"
                   id="exampleInputEmail"
                   placeholder="E-mail"
                 />
               </div>
-              <div class="form-group">
+              <div className="form-group">
                 <textarea
-                  class="form-control"
+                  name="message"
+                  className="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
                   placeholder="Message"
