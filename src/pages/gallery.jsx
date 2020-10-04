@@ -27,8 +27,8 @@ const Gallery = () => {
 
   return (
     <Layout>
-      <SEO title="Gallery" />
-      <div className="container py-5">
+      <SEO title="Gallery" lang="pt-BR" />
+      <div className="container py-4">
         <div className="row">
           <div className="col-12">
             <h1 className="text-gatsby mb-4">Gallery</h1>

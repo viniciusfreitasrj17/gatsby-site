@@ -4,6 +4,7 @@ module.exports = {
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
     copyright: `@ Copyright - All Rights Reserved`,
+    siteUrl: `https://www.example.com`,
     socialMedia: {
       github: `https://github.com/viniciusfreitasrj17`,
       facebook: `https://www.facebook.com/marcosvinicius.vinicius.940`,
@@ -14,6 +15,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -37,6 +39,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

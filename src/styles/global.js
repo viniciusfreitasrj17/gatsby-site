@@ -6,7 +6,7 @@ const Global = createGlobalStyle`
   }
 
   h1 {
-    color: #639
+    color: #9963ba;
   }
 `
 

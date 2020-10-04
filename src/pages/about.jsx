@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const About = () => {
   return (
     <Layout>
-      <SEO title="About" lang="uk" />
+      <SEO title="About" lang="pt-BR" />
       <div className="container">
         <div className="row">
           <div className="col-12 py-4">
@@ -14,7 +14,7 @@ const About = () => {
 
             <div className="container">
               <div className="row">
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12 mb-3">
                   <Cardv2
                     nameImage="foto1"
                     titleCard="Card 1"
@@ -24,7 +24,7 @@ const About = () => {
                     styleDefault={false}
                   />
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12 mb-3">
                   <Cardv2
                     nameImage="foto2"
                     titleCard="Card 2"
@@ -34,7 +34,7 @@ const About = () => {
                     styleDefault={false}
                   />
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12 mb-3">
                   <Cardv2
                     nameImage="foto3"
                     titleCard="Card 3"
